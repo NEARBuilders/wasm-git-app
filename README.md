@@ -1,6 +1,3 @@
-# nodejs
-A minimal Node.js web application.
+# Simple Proxy Server to Showcase Wasm-Git
 
-For a step-by-step guide to deploying on [Railway](https://railway.app/?referralCode=alphasec), see [this](https://alphasec.io/how-to-deploy-a-nodejs-app-on-railway/) post, or click the button below.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Abo1zu?referralCode=alphasec)
+See [full tutorial](https://near.social/mob.near/widget/MainPage.N.Post.Page?accountId=petersalomonsen.near&blockHeight=119692776).

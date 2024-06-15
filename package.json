@@ -1,13 +1,12 @@
 {
-  "name": "nodejs-app",
+  "name": "wasm-git-proxy",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "index.js",
-  "author": "alphasec",
+  "description": "",
+  "main": "server.js",
   "license": "MIT",
    "dependencies": {
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   }
 }
