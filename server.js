@@ -26,7 +26,7 @@ document.getElementById('cloneBtn').addEventListener('click', async () => {
   const lg2 = await import('https://cdn.jsdelivr.net/npm/wasm-git@0.0.13/lg2_async.js').then(r => r.default());
 
   // Use the proxy server to clone the repository
-  const repoUrl = 'http://localhost:3000/github/petersalomonsen/wasm-git.git';
+  const repoUrl = 'http://localhost:3000/github/petersalomonsen/quickjs-wasm-near.git';
   await lg2.callMain(['clone', repoUrl, 'wasmgit']);
 
   // List the contents of the cloned repository
