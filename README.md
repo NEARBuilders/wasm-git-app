@@ -5,11 +5,12 @@ See [full tutorial](https://near.social/mob.near/widget/MainPage.N.Post.Page?acc
 ## Running the app
 
 ### Prerequisites
-Docker running, install docker
+
+* Docker daemon running, install [Docker](https://docs.docker.com/engine/install/).
 
 ### Build the Docker Image
 
-Build the Docker image using the Dockerfile you created:
+Build the Docker image from the Dockerfile:
 
 ```bash
 docker build -t wasm-git-proxy .
@@ -22,6 +23,8 @@ Run the Docker container using the built image:
 ```bash
 docker run -d -p 3000:3000 wasm-git-proxy
 ```
+
+Console will print the container id.
 
 ### Open app in browser
 
