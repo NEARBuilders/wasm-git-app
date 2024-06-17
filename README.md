@@ -29,3 +29,5 @@ Console will print the container id.
 ### Open app in browser
 
 Go to http://localhost:3000 to view.
+
+### Deploy
